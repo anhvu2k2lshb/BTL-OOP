@@ -10,7 +10,7 @@ public class DictionaryCommandline {
         while(true) {
             int option;
             System.out.println("Nhập tùy chọn bạn muốn: ");
-            System.out.println("[0]-Exit, [1]-addWord, [2]-removeWord, [3]-updateWord, [4]-searchWord, [5]-showAllWords, [7]-exportToFile, [6]-importFromFile, [7]-exportToFile");
+            System.out.println("[0]-Exit, [1]-addWord, [2]-removeWord, [3]-updateWord, [4]-searchWord, [5]-showAllWords, [6]-importFromFile, [7]-exportToFile");
 
             try {
                 option = input.nextInt();
