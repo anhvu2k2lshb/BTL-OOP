@@ -17,7 +17,7 @@ public class DictionaryCommandline {
                 input.nextLine();
             } catch (Exception e) {
                 System.out.println("Please enter a valid number!");
-                input.nextLine(); // clear the invalid input
+                input.nextLine();
                 continue;
             }
 
